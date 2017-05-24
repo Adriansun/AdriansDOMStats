@@ -1,0 +1,180 @@
+/**
+ * Created by Adrian Lundhe, on 2017-04-10, Solna.
+ *
+ * CSS styles.
+ */
+
+/*
+ * Original body.
+ */
+
+.modal-content{
+    border-radius: 5px;
+    background-color: snow;
+    color: black;
+}
+
+.centerBloc{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgBlur{
+    -webkit-filter: drop-shadow(5px 5px 5px #7c7c7c);
+    filter: drop-shadow(5px 5px 5px #7c7c7c);
+}
+
+/*
+ * Modified body.
+ */
+
+a{
+    background-color: rgb(52, 73, 94);
+    color: #FFFFFF;
+}
+
+p{
+    background-color: #F2F2F2;
+    color: #000000;
+    border-radius: 5px;
+    padding-left: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.result p{
+    padding-left: 1%;
+    margin-bottom: .0001%;
+    margin-top: .0001%;
+
+}
+
+tbody{
+    background-color: #F2F2F2;
+    color: #000000;
+    margin: 1%;
+}
+
+table{
+    background-color: #F2F2F2;
+    color: #000000;
+    border: 1px solid black;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    margin-left: 1%;
+}
+
+/*Header cell*/
+th{
+    background-color: #F2F2F2;
+    color: #000000;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+/*Cell*/
+td{
+    background-color: #F2F2F2;
+    color: #000000;
+    border: 1px solid black;
+    border-collapse: separate;
+    padding: 5px;
+}
+
+hr{
+    background-color: rgb(52, 73, 94);
+    border-width: 0;
+}
+
+h2{
+    background-color: #ffffff; /* #006AA7; */
+    color: #000000;
+    border-radius: 5px;
+    -webkit-filter: drop-shadow(5px 5px 5px #7c7c7c);
+    filter: drop-shadow(5px 5px 5px #7c7c7c);
+    padding-left: .9%;
+    margin-top: .2%;
+    margin-bottom: .2%;
+}
+
+h3{
+    background-color: #ffffff; /* #FECC00; */
+    color: #000000;
+    border-radius: 5px;
+    -webkit-filter: drop-shadow(5px 5px 5px #7c7c7c);
+    filter: drop-shadow(5px 5px 5px #7c7c7c);
+    padding-left: .9%;
+    padding-top: .1%;
+}
+
+.purchases{
+    background-color: #F2F2F2;
+    color: #000000;
+    border-radius: 5px;
+    padding: .5%;
+}
+
+.result{
+    background-color: #F2F2F2;
+    color: #000000;
+}
+
+.striped{
+    background-color: #F2F2F2;
+    color: #000000;
+}
+
+.game-details{
+    background-color: #F2F2F2;
+    color: #000000;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body{
+    background: rgb(52, 73, 94);
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+    animation: fadein 5s;
+
+    margin-left: 7%;
+    margin-right: 3%;
+    position: absolute;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
